@@ -1,7 +1,174 @@
-<html>
-    <head>
-    </head>
-        <body>
-            <h3>Hello This is a test</h3>
-        </body>
+<!DOCTYPE html> <!--commentaar in html, wordt NIET getoond in een browser -->
+<!-- doctype = type/formaat document, HTML5 -->
+<html lang="en"> <!-- HTML element, bevat alles van de pagina = informatie, zie head en inhoud, zie body -->
+<head> <!-- bevat informatie over de pagina, bv character set, auteur,... -->
+	<meta charset="utf-8" /> 
+	<!--meta element = meta-informatie= informatie over informatie/inhoud, hier met attribuut charset = utf-8, bevat ong. alle lettertekens van elke taal-->
+	<!-- attributen zoals charset bestaan uit een naam = charset en een waarde tussen aanhalingstekens, hier "utf-8" (attribuut = naam-waarde paar)-->
+	<meta name="description" content="Een portfolio website voor 2BA GO, door Stephan Bourdon">
+	<!-- attribuut description = een korte beschrijving van de inhoud van deze PAGINA (niet vd hele website) ZEER belangrijk voor google, wordt getoond in de zoekresultaten, max 150 karakters-->
+	<meta name="author" content="Stephan Bourdon"> <!-- de auteur van deze webpagina-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- viewport attrib, deze waarde is specifiek voor mobile-first ontwerpen -->
+	<!--[if IEMobile]>
+		<meta http-equiv="cleartype" content="on">
+	<![endif]-->
+	<!-- conditional comment, worden alleen gebruikt door internet explorer, genegeerd door alle andere browsers, dienen om fouten in de HTML-herkenning te verbeteren -->
+	<!--[if (gte IE 9)]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />	
+	<![endif]-->
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	
+	<!-- link element =  link naar een extern bestand, hier style.css in de map css
+		rel attrib = relationship, of het verband dat het gelinkte document heeft met dit document, hier is style.css een styleheet voor index.html
+		type attrib = text/css = style.css is een text document, en de inhoud is als CSS geformateerd
+		href attrib = hypertext reference = de plaats waar het gelinkte document zich bevindt tov index.html (relatief pad, relatief tov van index.html)
+	-->
+	<script src="js/script.js"></script> 
+	<!-- script element, geeft link naar extern javascript bestand, via het src (source) attrib, hier naar de map js met daarin script.js-->
+	<!-- alles voor interactie, bv slideshow -->
+	<script src="js/modernizr.js"></script>
+	<!-- JS library die oudere browers compatibel maakt met HTML5 en CSS3, of toelaat om extra code toe te voegen zodat die oudere browsers toch bruikbaar blijven, vangt heel veel problemen met IE op-->
+	<!-- picturefill dient om verschillende beelden te laden bij verschillende schermafmetingen --> 
+	<!--[if (lt IE 9)&(!IEMobile)]>
+  		<script src="js/selectivizr.js"></script>
+  		<noscript>
+  		
+  			<link rel="stylesheet" href="css/noscript.css" />
+  		</noscript>
+	<![endif]-->
+	<!-- conditional comment voor versies van IE lager dan (lt = less than) 9 & NIET (! = niet operator) IEMobile-->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
+	<title>Thomas Roelens</title>
+	<!-- title element: BELANGRIJKSTE elment vd pagina, wordt getoond titl v zoekresultaat in google en moet met pagina verschillend zijn-->
+	
+	<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+</head>
+<body> <!--body element, bevat alles wat zichtbaar is in het browservenster, gestructureerd met HTML-elementen -->
+	
+	<div class="headernav">
+		<nav>
+			<h1><a href="index.html">Thomas Roelens</a></h1>
+			
+			<ul><!-- unordered list elem, definieert lijst van waarden, hier links-->
+				<li><a href="about/about.html">about</a></li>
+				<!-- li: list items, de elementen vd lijst -->
+				<!-- a-elem, anchor, link naar ander deel vd tekst of naar andere pagina of site, gedefinieerd door de waarde vh href attrib, hier een ander deel vd tekst, zie later -->
+				<li><a href="allprojects/allprojects.html">all projects</a></li>
+			</ul>
+		</nav>
+	</div>
+		
+		<div id="carousel">
+			<div id="quotebox">
+				<div id="quote">
+				<h5>
+					My approach is to let<br>
+					subject knowledge evolve<br>
+					into unexpected results.<br>
+					</h5>
+				</div>
+			</div>
+		</div>
+		<main>
+	 <!-- semantisch elem, de hoofdinhoud vd pagina -->
+	<header>
+	
+	<h2>Selected Projects</h2>
+	</header>
+		
+	<div class="section group">
+	
+	
+		<div class="col span_3_of_4"> <a href="allprojects/projects/collected.html">
+		<div class="foto_2_of_3"  style="background-image:url('images/collected/collectedbig.jpg');"> <a href="allprojects/projects/collected.html">
+			</div>
+		
+			<div class="content_1_of_3">
+			<h6>Collected</h6><br>
+			<h3>The Art of Collecting</h3><br>
+			A contemporary look for a magazine with a humanistic purpose.The magazine was an all-encompassing project in wich i was responsible for all the editing, photography and art-direction. This is supported by the high proportion, a color that contains earth tones as bright accent colors and distinctive typography.
+ 			<h4>Read More»</h4>
+			</div> 
+			</a>
+		</div>
+	
+	
+	
+	
+		<div class="col span_1_of_4" > <a href="allprojects/projects/amsterdamnw.html">
+			<div class="foto_top"  style="background-image:url('images/amsterdam/amsterdambig.jpg');"> 
+			</div>
+			
+			<div class="content_bottom">
+				<h6>Amsterdam N/W</h6><br>
+				<h3>Mapping Gentrification</h3><br>
+				A series of cartographic posters that show the impact of the creative class. <h4>Read More»</h4>
+			</div>
+				</a>
+		</div>
+			
+
+	
+	<div class="col span_2_of_4 first">
+			<a href="allprojects/projects/leica.html">
+				<div class="content_bottom_focus">
+				<h6>Leica | </h6> <h3>Photography that cuts through the noise</h3>
+			</div>
+			<div class="foto_top_focus" style="background-image:url('images/Leica/leicabig.jpg');"> 
+				
+			</div>
+			
+		
+			</a>
+		</div>
+	
+	<div class="col span_1_of_4">
+			<a href="allprojects/projects/rektoverso.html">
+			<div class="foto_top" style="background-image:url('images/rektoverso/RVIphone1.jpg');"> 
+		
+			</div>
+			<div class="content_bottom">
+				<h6>rekto:verso</h6><br>
+				<h3>A navigation strategy.</h3> <br>
+				Study that set out a vision for the online magazine of rekto:verso 
+<h4>Read More»</h4>
+	</a>
+			</div>
+			
+		</div>
+		
+	<div class="col span_1_of_4">
+			<a href="allprojects/projects/zeewaar.html">
+			<div class="foto_top" style="background-image:url('images/zeewaar/zeewaarbig.jpg');"> 
+			
+			
+			</div>
+			<div class="content_bottom">
+				<h6>Zeewaar</h6>
+				<h3>A bright future with seaweed</h3><br>
+				A clear identity for a start-up with a clear vision. 
+		<h4>Read More»</h4>
+			</div>
+			</a>
+		</div>
+		
+</div>
+
+
+			
+	<div id="footer">
+	<b>E | </b><a href="mailto:thomasroelenswh@gmail.com">thomasroelenswh@gmail.com</a> <b>T | </b>+32 (0)471 66 13 36
+	</div>
+	
+
+		</main>
+
+
+</body>
+
 </html>
