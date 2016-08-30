@@ -1,0 +1,510 @@
+/* 	http://www.cssreset.com/scripts/html5-doctor-css-reset-stylesheet/ 
+	Replaced hgroup by main - S. Bourdon 2/2015
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,main,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#333;text-decoration:none}
+mark{background-color:#ff9;color:#333;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+/* styles for screens up to 320 px */
+
+body { /* de body selector selecteert het <body>-HTML element en geeft er een aantal stijleigenschappen aan. Deze stijl eigenschappen worden overgeerfd door alle kind elementen (header, footer, main, nav, ul...) vh body element*/
+	font-family:  'merriweather', verdana, arial, helvetica, sans-serif;
+	/*  font-family stijleigenschap , geeft een reeks van fonts aan, indien beschikbaar op de computer wordt de eerste font gebruikt, zo niet de tweede enz */
+	font-size: 15px;	/* de fontgrootte */
+	font-weight:300;
+	line-height: 21px;	/* lijnhoogte */
+	background: transparent linear-gradient(to bottom, #F1F1F1 0%, #F6F6F6 85%, #FFF 100%) repeat scroll 0% 0%;
+	
+	
+}
+
+.headernav {
+	background-color:#fff;
+    width: 100%;
+	padding-left:4%;
+	padding-right:5%;
+	padding-bottom:20px;
+	z-index:1333;
+	border-bottom: 1px solid #E8EAE5;
+}
+
+nav h1 {
+    text-align:left;
+    font-size:21px;
+    color:#333;
+    padding-top:20px;
+}
+
+nav ul {
+padding-top:20px
+}
+
+nav ul li {
+    display:block;
+    width:175px;
+   
+}
+
+nav ul li a{
+color:#763;
+text-transform:uppercase;
+border-top:solid 3px #E8EAE5;
+display:block;
+font-size:13px;
+text-decoration:none;
+padding-top:2px;
+text-align: left;
+font-family:verdana;
+padding-bottom:8px;
+}
+
+#carousel {
+    height: 500px;
+    width: 100%;
+    padding: 0px;
+    background-image: url("../images/carousel4.jpg");
+    background-size:cover;
+}
+
+#quotebox {
+  	position: absolute;
+	margin-left:4%;
+	margin-right:5%;
+	width:310px;
+  	top:300px;
+	border-left:4px solid #ff3330;
+  	border-color:#00CCCC;
+  	background-color:rgba(0,0,0,0.3);
+   	padding-left:10px;
+   	padding-right:2%;
+}
+
+#quote{
+ font-size: 21px;
+ font-weight:700;
+  line-height: 34px;
+  color: #ffffff;
+  opacity:1;
+	}
+
+main {
+padding-left:4%;
+padding-right:5%;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+.col { margin: 2% 0 2% 0%;}
+
+	.span_4_of_4 {
+		width: 100%; 
+		overflow:hidden;}
+	.span_3_of_4 {
+		width: 100%; 
+		overflow:hidden;}
+		
+	.span_2_of_4 {
+		width: 100%; 
+		overflow:hidden;}
+	.span_1_of_4 {
+		overflow:hidden;}
+}
+
+.content_1_of_3 {
+padding: 20px 0% 20px 8%;
+margin-bottom:20px;
+width:92%;
+float:none;
+
+}
+
+.foto_2_of_3 {
+width:100%;
+height:400px;
+ background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+overflow:hidden;
+}
+
+
+.foto_top { 
+width:100%;
+height:400px;
+ background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+overflow:hidden;}
+
+.content_bottom { 
+padding: 20px 0% 20px 8%;
+margin-bottom:20px;
+width:92%;
+float:none;
+}
+
+.foto_top_focus{ 
+width:100%;
+height:400px;
+ background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+overflow:hidden;
+margin-bottom:50px;}
+
+
+.content_bottom_focus { 
+padding: 20px 0% 10px 8%;
+width:92%;
+float:none;
+border-top-style:solid;
+border-top-width:1px;
+border-color:#00CCCC
+}
+
+a:link {
+    color: #333;
+    text-decoration:none;
+}
+
+/* visited link */
+a:visited {
+    color: #333;
+    text-decoration:none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #333;
+    text-decoration:none;
+}
+
+/* selected link */
+a:active {
+    color: #333;
+    text-decoration:none;
+}
+
+h1 {
+	color: #333;
+	text-decoration:none;
+	font-family:merriweather,arial;
+	letter-spacing: 0.01em;
+	font-size:29px;
+}
+
+h2 {
+font-family: 'Merriweather Sans', sans-serif;
+text-transform:uppercase;
+font-weight:700;
+	font-size: 18px;
+	padding: 1em 0 1em 0;
+	/*font-family: times, serif;
+	font-size: 18px;
+	/* padding */
+	/* color: #f00;
+	text-align: center; */
+	letter-spacing: 0.01em;
+}
+
+h3 {
+font-weight:700;
+color:#763;
+display:inline-block;
+font-family:merriweather;
+font-weight:100;
+font-size:15px;
+padding-bottom:8px;
+}
+
+h4 {
+font-family: 'Merriweather Sans', sans-serif;
+color:#00CCCC;
+font-weight:300;
+font-size:12px;
+display:inline-block;
+text-transform:uppercase;
+}
+
+h6 {
+font-family:merriweather;
+color:#333;
+font-weight:900;
+font-size:18px;
+display:inline-block;
+padding-top:3px;
+padding-bottom:8px;
+}
+
+	
+p {
+	padding-bottom: 18px; /* is dezelfde waarde als line-height van body elem,  laat lijnen v versch kolommen op dezelfde hoogte beginnen*/
+}
+
+#footer{
+height:10px;
+width:100%;
+margin-top:50px;
+padding-top:10px;
+padding-bottom:50px;
+border-top: 1px solid #999;
+display: block;
+}
+
+@media only screen and (min-width: 480px) {
+
+.foto_top_focus img{ 
+width:100%;
+height:auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav h1 {
+    margin: 40px 0px 0px;
+    text-align:left;
+    font-size:25px;
+    color:#333;
+    float:left;
+}
+
+nav ul {
+margin-left:70%;
+padding-top:25px
+}
+
+nav ul li {
+    display:block;
+    width:70%;
+   
+}
+
+nav ul li a{
+color:#763;
+text-transform:uppercase;
+border-top:solid 3px #E8EAE5;
+display:block;
+font-size:13px;
+text-decoration:none;
+padding-top:2px;
+text-align: left;
+font-family:verdana;
+padding-bottom:8px;
+}
+
+#footer{
+height:10px;
+width:100%;
+margin-top:50px;
+padding-top:10px;
+padding-bottom:50px;
+border-top: 1px solid #999;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+
+
+.foto_2_of_3 img {
+height:100%;
+width:auto;
+}
+
+.foto_top img{ 
+width:100%;
+height:auto;
+}
+
+.foto_top_focus img{ 
+width:100%;
+height:auto;
+}
+
+
+#carousel {
+    height: 650px;
+    width:100%; 
+    padding: 0px;
+    background-image: url("../images/carousel4.jpg");
+    background-size:cover;
+}
+
+
+#quotebox {
+	width:500px;
+  	top:400px;
+}
+
+#quote{
+ font-size: 34px;
+ line-height: 47px;
+ font-weight:700;
+ color: #ffffff;
+	}
+	
+	.column { /* class selector, verwijst naar html elementen die het class-attrib hebben met waarde column. Class selectors beginnen altijd met een punt */
+    	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    	-moz-column-count: 2; /* Firefox */
+    	column-count: 2;
+    	/* -webkit- is een vendor prefix, staat voor een specifieke definite ve stijleigenschap gebonden aan een bepaald bedrijf */
+    	/*  column count staat voor het aantal kolommen */
+	}
+	
+	
+
+@media only screen and (min-width: 768px) {
+
+#quotebox {
+	width:700px;
+  	top:400px;
+}
+#quote{
+ font-size:50px;
+ line-height: 65px;
+ font-weight:700;
+ color: #ffffff;
+	}
+
+}
+
+@media only screen and (min-width: 992px) {
+	.top-level h1, .top-level nav {
+		position: fixed;}
+		
+
+		
+		/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+/*  GRID OF FOUR   ============================================================================= */
+
+	
+.span_4_of_4 {
+	width: 100%; 
+	height:400px;
+}
+
+.span_3_of_4 {
+	width: 74.6%; 
+		height:400px;
+}
+
+.span_2_of_4 {
+	width: 49.2%; 
+		height:400px;
+}
+
+.span_1_of_4 {
+	width: 23.8%; 
+		height:400px;
+}
+
+.first { margin-left: 0; }
+
+.content_1_of_3 {
+width:29%;
+float:left;
+height:380px;
+padding: 20px 4% 0 0%;
+border-top-style:solid;
+border-top-width:1px;
+border-color:#00CCCC;
+
+
+}
+
+.foto_2_of_3 {
+width:67%;
+background-color:#E8EAE5;
+height:inherit;
+float:right;
+border-top-style:solid;
+border-top-width:1px;
+border-color:#00CCCC;
+
+
+}
+
+
+.foto_top { 
+height:60%;
+border-top-style:solid;
+border-top-width:1px;
+border-color:#00CCCC;
+}
+
+.content_bottom { 
+height:34%;
+padding: 5% 10% 5% 0%;
+width:90%
+}
+
+.foto_top_focus 
+{ 
+height:87%;}
+
+
+.foto_top_focus  img{ 
+height:100%;
+width:auto;}
+
+.content_bottom_focus { 
+height:8%;
+padding: 3% 10% 1% 0%;
+width:90%;}
+
+.content_bottom_focus h3 { 
+font-size:18px;
+}
+
+#footer{
+clear:both;
+margin-top:50px;
+
+
+}
+
+@media only screen and (min-width: 1382px) {
+
+}

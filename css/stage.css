@@ -1,0 +1,385 @@
+
+#footer {
+    height: 10px;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 21px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    margin-bottom:20px;
+}
+
+#bottom{
+   height: 10px;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 21px;
+    border-top: 0px solid #999;
+    border-bottom: 0px solid #999;
+    margin-bottom:20px;
+}
+
+body{
+ margin: 0;
+     padding: 0;
+     text-align: center;
+     background-color:#ccc;
+}
+
+
+.headernav {
+ width:740px;
+ background-color:initial;
+    padding-bottom: 20px;
+    padding-left: 0%;
+    padding-right: 0%;
+    z-index: 1333;
+    border-bottom: 1px solid #999;
+    margin: 0 auto;
+     text-align: left;
+}
+
+nav ul {
+    margin-left: 77%;
+    padding-top: 29px;
+    }
+
+nav ul li {
+    width: 100%;
+}
+
+
+nav ul li a {
+    color: #00CCCC;
+    text-transform: uppercase;
+    display: block;
+    font-size: 13px;
+    text-decoration: none;
+    padding-top: 2px;
+    text-align: left;
+    font-family: verdana;
+    padding-bottom: 8px;
+border-top: solid 0px #00CCCC;
+}
+
+.contact ul li{ 
+    width:175px;
+    float:left;
+    text-decoration: none; 
+    padding-right: 100px;
+    list-style-type: none}
+    
+.contact ul li a{
+color:#00CCCC;
+text-transform:uppercase;
+font-size:13px;
+text-decoration:none;
+text-align: left;
+font-family:verdana;
+}
+
+
+
+main {
+	/* margin: 0 auto;/* marge: een witruimte buiten het element */
+	/*  padding een wiruimte binnen het element */
+	/* margins en paddings dienen om witruimte aan te geven, NIET om te positioneren
+	 margins en padding werken alleen op elem met display block en inline block
+	Box model: http://www.w3schools.com/css/css_boxmodel.asp 
+	onthou display: flex; flex-box model, laat heel flexibele bladindelingen toe*/
+
+width:740px;
+margin: 0 auto;
+text-align: left;
+padding-left: 0%;
+padding-right: 0%;
+}
+
+nav h1 {
+    margin: 30px 0px 0px;
+    text-align: left;
+    font-size: 18px;
+    color: #333;
+}
+
+h2{
+font-size:15px;
+}
+
+#foto{
+width:150px;
+height:130px;
+background-image: url("http://www.golucabrussel.be/2ba/thomas-roelens/about/thomasroelens.jpg");
+background-size:cover;
+border-top:solid 1px #00CCCC;
+}
+
+
+p
+{font-size:13px;
+padding-bottom: 21px;}
+
+.col {
+    margin: 0% 0px 0% 0%;
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+
+
+
+h7 {
+font-family:merriweather;
+font-style: italic;
+}
+
+.test{
+padding-top:200px;
+border-bottom:solid 1px;}
+
+.discipline{
+display:none;
+margin-top:100px;}
+
+.span_1_of_4 {
+height:auto;
+width:100%; 
+padding-bottom:20px;}
+
+
+
+	
+.span_3_of_4 {
+	width: 100%; 
+	height:auto;
+	overflow:hidden;}
+	
+	
+.intro{
+	width: 100%; 
+}
+
+.span_3_of_4 img{
+margin-top:20px
+margin-bottom:10px;
+width:100%;
+height:auto; }
+	
+.span_3_of_4 h1{
+font-family:merriweather;
+font-size:21px;
+line-height:29px;
+font-weight:900;
+padding-bottom:8px;
+}
+
+.span_3_of_4 h2{
+font-family:merriweather;
+font-size:18px;
+line-height:21px;
+font-weight:100;
+color:#763;
+text-transform:capitalize;
+padding-top:0px;
+}
+
+.span_3_of_4 h3{
+font-family:merriweather;
+font-size:15px;
+line-height:18px;
+font-weight:100;
+color:#000;
+}
+
+.span_3_of_4 a{
+background-color:#0CC;
+}
+
+}
+
+
+@media only screen and (min-width: 480px) {
+
+
+.test{
+padding-top:150px;
+border-bottom:solid 1px;}
+
+.discipline{
+display:none;
+margin-top:100px;}
+
+.span_1_of_4 {
+height:auto;
+width:100%; 
+padding-bottom:20px;}
+
+	
+.span_3_of_4 {
+	width: 100%; 
+	height:auto;
+	overflow:hidden;}
+	
+	
+.intro{
+	width: 100%; 
+}
+
+.span_3_of_4 img{
+margin-top:20px
+margin-bottom:10px;
+width:100%;
+height:auto; }
+	
+.span_3_of_4 h1{
+font-family:merriweather;
+font-size:21px;
+line-height:29px;
+font-weight:900;
+padding-bottom:8px;
+}
+
+.span_3_of_4 h2{
+font-family:merriweather;
+font-size:18px;
+line-height:21px;
+font-weight:100;
+color:#763;
+text-transform:capitalize;
+padding-top:0px;
+}
+
+.span_3_of_4 h3{
+font-family:merriweather;
+font-size:15px;
+line-height:18px;
+font-weight:100;
+color:#000;
+}
+
+
+.span_3_of_4 a{
+background-color:#0CC;
+}
+
+}
+
+@media only screen and (min-width: 600px) {
+.discipline{
+display:none;}
+}
+
+@media only screen and (min-width: 768px) {
+.discipline{
+display:none;}
+}
+
+@media only screen and (min-width: 992px) {
+
+.test{
+padding-top:150px;
+border-bottom:solid 1px;}
+
+.span_1_of_4 {
+height:auto;
+width: 23.8%;}
+
+
+
+.discipline{
+margin-top:100px;
+display:initial;
+font-style:normal;}
+
+	
+.span_3_of_4 {
+	width: 74.6%; 
+	height:auto;
+	overflow:hidden;}
+	
+	
+.intro{
+	width: 64.6%; 
+padding-right:10%;
+}
+
+.span_3_of_4 img{
+margin-top:20px
+margin-bottom:10px;
+width:100%;
+height:auto; }
+	
+.span_3_of_4 h1{
+font-family:merriweather;
+font-size:29px;
+line-height:34px;
+font-weight:900;
+padding-bottom:8px;
+}
+
+.span_3_of_4 h2{
+font-family:merriweather;
+font-size:21px;
+line-height:29px;
+font-weight:100;
+color:#763;
+text-transform:capitalize;
+padding-top:0px;
+}
+
+.span_3_of_4 h3{
+font-family:merriweather;
+font-size:18px;
+line-height:25px;
+font-weight:100;
+color:#000;
+}
+
+.span_3_of_4 p{
+font-family:merriweather;
+font-size:15px;
+line-height:24px;
+font-weight:100;
+color:#000;
+padding-top:0px;
+}
+
+.span_3_of_4 a{
+border-bottom:1px dotted;
+color:#0CC;
+background-color:initial;
+}
+
+.span_3_of_4 a:hover{
+color:#0CC;
+}
+
+h4 {
+font-family:verdana;
+font-weight:bold;
+color:#000;
+}
+
+h7 {
+font-family:merriweather;
+font-style: italic;
+}
+
+
+
+.section group test {
+    padding-top: 0px;
+    border-bottom: 1px solid;
+}
+
+
+
+
+
+
+
