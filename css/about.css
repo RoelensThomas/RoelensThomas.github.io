@@ -1,16 +1,19 @@
 .span_1_of_4{
-    height:200px;
+    height:auto;
     margin-bottom:0px;
     border-top-style:solid;
     border-top-color:#00cccc;
     border-top-width:1px;
     padding-top:8px;
+    padding-bottom:13px;
     
 }
 
 .span_3_of_4{
     height:auto;
     margin-bottom:0px;
+    float:none;
+    margin-bottom:61px;
 }
 
 .foto_top_focus{
