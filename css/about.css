@@ -1,6 +1,9 @@
 .foto_top_focus{
 height:auto;
-background-position: top center;}
+background-position: top center;
+font-size:17px;
+line-height:25px;
+}
 
 h4{
 color:#333;
