@@ -470,7 +470,7 @@ border-color:#00CCCC;
 .foto_top { 
 height:60%;
 border-top-style:solid;
-border-top-width:1px;
+border-top-width:0.5px;
 border-color:#00CCCC;
 }
 
@@ -483,6 +483,7 @@ width:90%
 .foto_top_focus 
 { 
 height:87%;}
+    
 
 
 .foto_top_focus  img{ 
