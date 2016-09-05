@@ -1,13 +1,30 @@
+.span_1_of_4{
+    height:200px;
+    margin-bottom:0px;
+    border-top-style:solid;
+    border-top-color:#00cccc;
+    border-top-width:1px;
+    padding-top:8px;
+    
+}
+
+.span_3_of_4{
+    height:auto;
+    margin-bottom:0px;
+}
+
 .foto_top_focus{
 height:auto;
 background-position: top center;
-font-size:17px;
-line-height:25px;
+font-size:19px;
+line-height:27px;
+margin-bottom:0px;
 }
 
 h4{
 color:#333;
 text-transform:none;
 font-size:13px;}
+
 
 
