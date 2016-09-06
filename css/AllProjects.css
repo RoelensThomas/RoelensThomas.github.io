@@ -15,21 +15,22 @@
     
 .project {
 overflow:hidden;
-width:44%;
+width:48%;
 float:left;
-margin-left:8px;
-    height:auto;
-    height:150px;}
+margin-left:2%;
+height:120px;}
     
 .highlight{
     overflow:hidden;
-width:95%;
+width:98%;
 float:left;
-    height:150px;
+    height:250px;}
         
+.foto_top{height:120px;}
+    
+    .highlight .foto_top{
+        height:250px;
     }
-        
-.foto_top{height:150px;}
     
 .content_bottom{
  visibility:hidden;}
