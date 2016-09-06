@@ -24,12 +24,12 @@ height:120px;}
     overflow:hidden;
 width:98%;
 float:left;
-    height:250px;}
+    height:199px;}
         
 .foto_top{height:120px;}
     
     .highlight .foto_top{
-        height:250px;
+        height:199px;
     }
     
 .content_bottom{
@@ -84,8 +84,11 @@ height:400px;}
 
 .project {
 width: 23.8%; 
-height:400px;
-background-color:red;}
+height:auto;}
+    
+.foto_top{height:199px;}
+    
+    .content_bottom{height:29px;}
     
 
     
