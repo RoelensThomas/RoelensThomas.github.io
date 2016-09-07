@@ -31,9 +31,9 @@ body { /* de body selector selecteert het <body>-HTML element en geeft er een aa
 
 .headernav {
 	background-color:#fff;
-    width: 100%;
+    width: 96%;
 	padding-left:4%;
-	padding-right:5%;
+	padding-right:0%;
 	padding-bottom:20px;
 	z-index:1333;
 	border-bottom: 1px solid #E8EAE5;
@@ -283,13 +283,15 @@ nav h1 {
 }
 
 nav ul {
-margin-left:70%;
-padding-top:25px
+margin-left:72%;
+padding-top:24px;
+width:28%
 }
 
 nav ul li {
     display:block;
-    width:70%;
+    width:80%;
+    
    
 }
 
@@ -304,6 +306,7 @@ padding-top:2px;
 text-align: left;
 font-family:verdana;
 padding-bottom:8px;
+    width:100%
 }
 
 #footer{
