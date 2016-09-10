@@ -73,7 +73,7 @@ padding-bottom:8px;
     height: 500px;
     width: 100%;
     padding: 0px;
-    background-image: url("../images/carousel4.jpg");
+    background-image: url("../images/carousel-three.jpg");
     background-size:cover;
 }
 
@@ -97,6 +97,7 @@ padding-bottom:8px;
   color: #ffffff;
   opacity:1;
 	}
+
 
 main {
 padding-left:4%;
@@ -343,16 +344,21 @@ height:auto;
     height: 650px;
     width:100%; 
     padding: 0px;
-    background-image: url("../images/carousel4.jpg");
+    background-image: url("../images/Leica/leicabig.jpg");
     background-size:cover;
 }
+
 
 
 #quotebox {
 	width:500px;
   	top:400px;
 }
+    
 
+
+
+    
 #quote{
  font-size: 34px;
  line-height: 47px;
