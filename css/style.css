@@ -80,7 +80,7 @@ padding-bottom:8px;
 	margin-right:5%;
 	width:275px;
   	top:300px;
-	border-left:4px solid #ff3330;
+	border-left:4px solid #00CCCC;
   	border-color:#00CCCC;
   	background-color:rgba(0,0,0,0.3);
    	padding-left:10px;
@@ -195,7 +195,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: #333;
+    color:#333;
     text-decoration:none;
 }
 
@@ -266,8 +266,12 @@ width:100%;
 margin-top:34px;
 padding-top:10px;
 padding-bottom:50px;
-border-top: 1px solid #999;
+border-top: 1px solid #00CCCC;
 display: block;
+font-variant:small-caps;
+    font-family:sans-serif;
+    letter-spacing:0.8px;
+    
 }
 
 @media all and (min-width: 480px) {
@@ -314,8 +318,11 @@ width:100%;
 margin-top:50px;
 padding-top:10px;
 padding-bottom:50px;
-border-top: 1px solid #999;
-}
+border-top: 1px dotted #00CCCC;
+text-transform:uppercase;
+    font-size:11px;
+    letter-spacing:0.8px;
+    }
 
 }
 
