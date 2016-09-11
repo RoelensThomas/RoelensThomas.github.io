@@ -415,6 +415,12 @@ height:auto;
 
 @media all and (min-width: 768px) {
 
+
+
+}
+
+@media all and (min-width: 992px) {
+    
 #quotebox {
 	width:700px;
   	top:400px;
@@ -426,9 +432,6 @@ height:auto;
  color: #ffffff;
 	}
 
-}
-
-@media all and (min-width: 992px) {
 	.top-level h1, .top-level nav {
 		position: fixed;}
 		
@@ -559,9 +562,8 @@ font-size:18px;
 #footer{
 clear:both;
 margin-top:34px;
-
-
 }
+    }
 
 @media all and (min-width: 1350px) {
     

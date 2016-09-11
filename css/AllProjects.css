@@ -1,4 +1,4 @@
-@media only screen and (max-width: 480px) {
+@media all and (max-width: 480px) {
     
     .col { margin: 2% 0 2% 0%;}
 
@@ -62,13 +62,13 @@ float:left;
 
     
 }
-@media only screen and (min-width: 480px) {
+@media all and (min-width: 480px) {
     
 
 }
-@media only screen and (min-width: 600px) {}
-@media only screen and (min-width: 768px) {}
-@media only screen and (min-width: 992px) {
+@media all and (min-width: 600px) {}
+@media all and (min-width: 768px) {}
+@media all and (min-width: 992px) {
     
 .span_4_of_4 {
 width: 100%; 
@@ -97,5 +97,5 @@ height:auto;}
 
 
 
-@media only screen and (min-width: 1382px) {}
+@media all and (min-width: 1382px) {}
 
