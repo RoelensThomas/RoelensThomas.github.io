@@ -106,7 +106,7 @@ padding-right:5%;
 
 
 
-@media only screen and (max-width: 480px) {
+@media all and (max-width: 480px) {
     
     #carousel {
     height: 500px;
@@ -273,7 +273,7 @@ border-top: 1px solid #999;
 display: block;
 }
 
-@media only screen and (min-width: 480px) {
+@media all and (min-width: 480px) {
 
 
 nav h1 {
@@ -320,8 +320,9 @@ padding-bottom:50px;
 border-top: 1px solid #999;
 }
 
+}
 
-@media only screen and (min-width: 600px) {
+@media all and (min-width: 600px) {
     
 .foto_2_of_3 {
 width:100%;
@@ -415,7 +416,7 @@ height:auto;
 	
 	
 
-@media only screen and (min-width: 768px) {
+@media all and (min-width: 768px) {
 
 #quotebox {
 	width:700px;
@@ -430,7 +431,7 @@ height:auto;
 
 }
 
-@media only screen and (min-width: 992px) {
+@media all and (min-width: 992px) {
 	.top-level h1, .top-level nav {
 		position: fixed;}
 		
@@ -565,6 +566,6 @@ margin-top:34px;
 
 }
 
-@media only screen and (min-width: 1382px) {
+@media all and (min-width: 1382px) {
 
 }
