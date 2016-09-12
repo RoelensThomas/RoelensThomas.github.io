@@ -70,7 +70,7 @@ padding-bottom:8px;
     height: 500px;
     width: 100%;
     padding: 0px;
-    background-image: url("../images/Leica/leicabig.jpg");
+    background-image: url("../images/Leica/box-top.jpg");
     background-size:cover;
 }
 
@@ -109,7 +109,7 @@ padding-right:5%;
     height: 500px;
     width: 100%;
     padding: 0px;
-    background-image: url("../images/Leica/leicabig.jpg");
+    background-image: url("../images/Leica/box-top.jpg");
     background-size:cover;
         background-position:top;
 }
@@ -389,7 +389,7 @@ height:auto;
     height: 650px;
     width:100%; 
     padding: 0px;
-    background-image: url("../images/Leica/leicabig.jpg");
+    background-image: url("../images/Leica/box-top.jpg");
     background-size:cover;
     
 }

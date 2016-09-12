@@ -1,5 +1,33 @@
 @media all and (max-width: 480px) {
     
+.bestuurdersenquete{background-image:url('../images/bestuurdersenquete/bestuurdersenquete-small/bestuurdersenquete-detail-small.jpg');}
+    
+.routedurhum{background-image:url('../images/routedurhum/routedurhum-small/detail-finish-small.jpg');}
+    
+.werf{background-image:url('../images/werf/werf-small/front-small.jpg');}
+    
+.iiid{background-image:url('../images/iiid/iiid-small/iiid-intro-small.jpg');}
+
+.amsterdam{background-image:url('../images/amsterdam/amsterdammed.jpg');}
+    
+.collected{background-image:url('../images/collected/collected-small/binnenkant-small.jpg');}
+    
+.zeewaar{background-image:url('../images/zeewaar/zeewaar-small/overview-small.jpg');}
+    
+.leica{background-image:url('../images/Leica/leica-small/box-top-small.jpg');}
+    
+.umami{background-image:url('../images/umami/umamicover.jpg');}
+
+
+    
+
+
+
+    
+
+
+
+    
     .col { margin: 2% 0 2% 0%;}
 
 	.span_4_of_4 {
@@ -64,9 +92,61 @@ float:left;
 }
 @media all and (min-width: 480px) {
     
+.bestuurdersenquete{
+    background-image:url('../images/bestuurdersenquete/bestuurdersenquete-small/bestuurdersenquete-detail-small.jpg');   
+    }
+    
+.routedurhum{
+        background-image:url('../images/routedurhum/routedurhum-small/detail-finish-small.jpg'); 
+}
+.werf{
+        background-image:url('../images/werf/werf-small/front-small.jpg');       
+}
+        
+.iiid{background-image:url('../images/iiid/iiid-small/iiid-intro-small.jpg');}
+    
+.amsterdam{background-image:url('../images/amsterdam/amsterdammed.jpg');}
+    
+.collected{background-image:url('../images/collected/collected-small/binnenkant-small.jpg');}
+    
+.zeewaar{background-image:url('../images/zeewaar/zeewaar-small/overview-small.jpg');}
+    
+.leica{background-image:url('../images/Leica/leica-small/box-top-small.jpg');}
+    
+.umami{background-image:url('../images/umami/umamicover.jpg');}
+
+
+
+
+    
 
 }
-@media all and (min-width: 600px) {}
+@media all and (min-width: 600px) {
+    
+.bestuurdersenquete{
+    background-image:url('../images/bestuurdersenquete/bestuurdersenquete-detail.jpg');}
+    
+.routedurhum{
+        background-image:url('../images/routedurhum/detail-finish.jpg');}
+.werf{background-image:url('../images/werf/front.jpg');}
+    
+.iiid{background-image:url('../images/iiid/iiid-intro.jpg')}
+    
+.amsterdam{background-image:url('../images/amsterdam/amsterdammed.jpg');}
+    
+.collected{background-image:url('../images/collected//binnenkant.jpg');}
+    
+.zeewaar{background-image:url('../images/zeewaar/overview.jpg');}
+    
+.leica{background-image:url('../images/Leica/box-top.jpg');}
+    
+.umami{background-image:url('../images/umami/umamicover.jpg');}
+
+
+    
+
+
+}
 @media all and (min-width: 768px) {}
 @media all and (min-width: 992px) {
     
