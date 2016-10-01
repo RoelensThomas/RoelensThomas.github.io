@@ -169,14 +169,27 @@ border-bottom:solid 1px;}
 .span_1_of_4 {
 height:auto;
 width: 23.8%;
-    border-top-style:none;}
+    }
+    
+    .span_1_of_4 p {
+ padding-top:13px;
+    border-top-style:solid;
+    border-top-width:1px;
+    border-top-color:black;
+        font-size:14px;
+        line-height:19.5px;
 
+    }
+    
 
+    
 
 .discipline{
 margin-top:100px;
 display:initial;
-font-style:normal;}
+font-style:normal;
+border-top-style:none;
+    padding-top:0px}
 
 	
 .span_3_of_4 {
