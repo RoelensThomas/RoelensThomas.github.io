@@ -17,15 +17,8 @@
 .leica{background-image:url('../images/Leica/leica-small/box-top-small.jpg');}
     
 .umami{background-image:url('../images/umami/umamicover.jpg');}
-
-
     
-
-
-
-    
-
-
+.library{background-image:url('../images/bachelor/1.jpg');}
 
     
     .col { margin: 2% 0 2% 0%;}
@@ -114,6 +107,9 @@ float:left;
 .leica{background-image:url('../images/Leica/leica-small/box-top-small.jpg');}
     
 .umami{background-image:url('../images/umami/umamicover.jpg');}
+    
+.library{background-image:url('../images/bachelor/1.jpg');}
+
 
 
 
@@ -141,6 +137,9 @@ float:left;
 .leica{background-image:url('../images/Leica/box-top.jpg');}
     
 .umami{background-image:url('../images/umami/umamicover.jpg');}
+    
+.library{background-image:url('../images/bachelor/1.jpg');}
+
 
 
     
